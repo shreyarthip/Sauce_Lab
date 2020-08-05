@@ -1,7 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c7ac3-0225-477c-8c6b-6d3a922a997e" name="Default Changelist" comment="" />
+    <list default="true" id="db4c7ac3-0225-477c-8c6b-6d3a922a997e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BrowserManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/BrowserManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestData/TestDataConfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestData/TestDataConfig.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Destination/embedded0.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/Destination/embedded0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Destination/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/Destination/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/BrowserManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/BrowserManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestData/TestDataConfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestData/TestDataConfig.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/login.feature" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,13 +46,18 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1fXwEbAvHyQMXlWBZIWHWwuYLc1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/features" />
   </component>
   <component name="RecentsManager">
@@ -31,7 +68,7 @@
   </component>
   <component name="RunManager">
     <configuration name="RunTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Sauce_Lab" />
+      <module name="Sauce_Lab2" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -64,30 +101,54 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="434" y="171" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596454793464">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="434" y="171" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738/-1920.-318.1536.864@0.0.1366.738" timestamp="1596454793464" />
-    <state width="1367" height="432" key="GridCell.Tab.0.bottom" timestamp="1596576867355">
+    <state x="466" y="238" width="433" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1596626826343">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1367" height="432" key="GridCell.Tab.0.bottom/0.0.1366.738/-1920.-318.1536.864@0.0.1366.738" timestamp="1596576867355" />
+    <state x="466" y="238" width="433" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.738/-1920.-318.1536.864@0.0.1366.738" timestamp="1596626826343" />
+    <state width="1367" height="2" key="GridCell.Tab.0.bottom" timestamp="1596635147173">
+      <screen x="0" y="0" width="1366" height="707" />
+    </state>
+    <state width="1350" height="231" key="GridCell.Tab.0.bottom/0.0.1366.428/-1920.-318.1536.864@0.0.1366.428" timestamp="1596628690505" />
+    <state width="1367" height="2" key="GridCell.Tab.0.bottom/0.0.1366.707/-1920.-318.1536.864@0.0.1366.707" timestamp="1596635147173" />
+    <state width="1348" height="2" key="GridCell.Tab.0.bottom/0.0.1366.738/-1920.-318.1536.864@0.0.1366.738" timestamp="1596628637395" />
     <state width="1367" height="432" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1596572122683" />
-    <state width="1367" height="432" key="GridCell.Tab.0.center" timestamp="1596576867355">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="1367" height="2" key="GridCell.Tab.0.center" timestamp="1596635147173">
+      <screen x="0" y="0" width="1366" height="707" />
     </state>
-    <state width="1367" height="432" key="GridCell.Tab.0.center/0.0.1366.738/-1920.-318.1536.864@0.0.1366.738" timestamp="1596576867355" />
+    <state width="1350" height="231" key="GridCell.Tab.0.center/0.0.1366.428/-1920.-318.1536.864@0.0.1366.428" timestamp="1596628690505" />
+    <state width="1367" height="2" key="GridCell.Tab.0.center/0.0.1366.707/-1920.-318.1536.864@0.0.1366.707" timestamp="1596635147173" />
+    <state width="1348" height="2" key="GridCell.Tab.0.center/0.0.1366.738/-1920.-318.1536.864@0.0.1366.738" timestamp="1596628637394" />
     <state width="1367" height="432" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1596572122683" />
-    <state width="1367" height="432" key="GridCell.Tab.0.left" timestamp="1596576867355">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="1367" height="2" key="GridCell.Tab.0.left" timestamp="1596635147173">
+      <screen x="0" y="0" width="1366" height="707" />
     </state>
-    <state width="1367" height="432" key="GridCell.Tab.0.left/0.0.1366.738/-1920.-318.1536.864@0.0.1366.738" timestamp="1596576867355" />
+    <state width="1350" height="231" key="GridCell.Tab.0.left/0.0.1366.428/-1920.-318.1536.864@0.0.1366.428" timestamp="1596628690504" />
+    <state width="1367" height="2" key="GridCell.Tab.0.left/0.0.1366.707/-1920.-318.1536.864@0.0.1366.707" timestamp="1596635147173" />
+    <state width="1348" height="2" key="GridCell.Tab.0.left/0.0.1366.738/-1920.-318.1536.864@0.0.1366.738" timestamp="1596628637394" />
     <state width="1367" height="432" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1596572122683" />
-    <state width="1367" height="432" key="GridCell.Tab.0.right" timestamp="1596576867355">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="1367" height="2" key="GridCell.Tab.0.right" timestamp="1596635147173">
+      <screen x="0" y="0" width="1366" height="707" />
     </state>
-    <state width="1367" height="432" key="GridCell.Tab.0.right/0.0.1366.738/-1920.-318.1536.864@0.0.1366.738" timestamp="1596576867355" />
+    <state width="1350" height="231" key="GridCell.Tab.0.right/0.0.1366.428/-1920.-318.1536.864@0.0.1366.428" timestamp="1596628690505" />
+    <state width="1367" height="2" key="GridCell.Tab.0.right/0.0.1366.707/-1920.-318.1536.864@0.0.1366.707" timestamp="1596635147173" />
+    <state width="1348" height="2" key="GridCell.Tab.0.right/0.0.1366.738/-1920.-318.1536.864@0.0.1366.738" timestamp="1596628637394" />
     <state width="1367" height="432" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1596572122683" />
   </component>
 </project>
