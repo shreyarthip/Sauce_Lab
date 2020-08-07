@@ -19,30 +19,30 @@ import java.net.MalformedURLException;
 
 
 public class BrowserManager extends  Util {
- public static LoadProp loadProp = new LoadProp();
+    public static LoadProp loadProp = new LoadProp();
 
-    public static final String SAUCE_USERNAME = "n1k1.123";
-    public static final String SAUCE_ACCESS_KEY = "83c3e32b-0628-4404-849b-9b5d2f7acf2a";//Access key
+    public static final String SAUCE_USERNAME =loadProp.getProperty("SAUCE_USERNAME");  //  "n1k1.123";
+    public static final String SAUCE_ACCESS_KEY =loadProp.getProperty("SAUCE_ACCESS_KEY"); // "83c3e32b-0628-4404-849b-9b5d2f7acf2a";//Access key
     public static final String URL = " https://" + loadProp.getProperty("SAUCE_USERNAME")  + ":" + loadProp.getProperty("SAUCE_ACCESS_KEY")  + "@ondemand.us-west-1.saucelabs.com:443/wd/hub";
     //https://n1k1.123:83c3e32b-0628-4404-849b-9b5d2f7acf2a@ondemand.us-west-1.saucelabs.com:443/wd/hub
 
     public void SetBrowser() {
         String browserName = loadProp.getProperty("browserName");
-        boolean SAUCE_LAB = true;
+        boolean SAUCE_LAB = false;
 
         if (SAUCE_LAB) {
-
+            System.out.println("Running in SauceLab......with browser " + browserName);
             if (browserName.equalsIgnoreCase("Chrome")) { //for chrome browser selection
                 MutableCapabilities sauceOptions = new MutableCapabilities();
                 ChromeOptions browserOptions = new ChromeOptions();
-                DesiredCapabilities caps = DesiredCapabilities.chrome();
+               // DesiredCapabilities caps = DesiredCapabilities.chrome();
                 browserOptions.setExperimentalOption("w3c", true);
                 browserOptions.setCapability("platformName", "Windows 10");
                 browserOptions.setCapability("browserVersion", "71.0");
                 browserOptions.setCapability("sauce:options", sauceOptions);
 
                 try { //Exception handling for remote web driver
-                    driver = new RemoteWebDriver(new URL(URL), caps);
+                    driver = new RemoteWebDriver (new URL(URL), sauceOptions );
                 } catch (MalformedURLException e) {
                     e.printStackTrace();
                 }
@@ -50,13 +50,13 @@ public class BrowserManager extends  Util {
             } else if (browserName.equalsIgnoreCase("firefox")) {
                 MutableCapabilities sauceOptions = new MutableCapabilities();
                 FirefoxOptions browserOptions = new FirefoxOptions();
-                DesiredCapabilities caps = DesiredCapabilities.firefox();
+               // DesiredCapabilities caps = DesiredCapabilities.firefox();
                 browserOptions.setCapability("platformName", "Windows 10");
                 browserOptions.setCapability("browserVersion", "43.0");
                 browserOptions.setCapability("sauce:options", sauceOptions);
 
                 try {
-                    driver = new RemoteWebDriver(new URL(URL),caps);
+                    driver = new RemoteWebDriver(new URL(URL), sauceOptions);
                 } catch (MalformedURLException e) {
                     e.printStackTrace();
                 }
@@ -64,13 +64,13 @@ public class BrowserManager extends  Util {
             {
                 MutableCapabilities sauceOptions = new MutableCapabilities();
                 InternetExplorerOptions browserOptions = new InternetExplorerOptions();
-                DesiredCapabilities caps = DesiredCapabilities.internetExplorer();
+              //  DesiredCapabilities caps = DesiredCapabilities.internetExplorer();
                 browserOptions.setCapability("platformName", "Windows 10");
                 browserOptions.setCapability("browserVersion", "11.285");
                 browserOptions.setCapability("sauce:options", sauceOptions);
 
                 try {
-                    driver = new RemoteWebDriver(new URL(URL),caps);
+                    driver = new RemoteWebDriver(new URL(URL) ,sauceOptions);
                 } catch (MalformedURLException e) {
                     e.printStackTrace();
                 }
@@ -96,6 +96,8 @@ public class BrowserManager extends  Util {
         //  driver.close();
     }
 }
+
+
 
 
 
